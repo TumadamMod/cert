@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tumadam MOD</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #121212; color: #fff; padding: 20px; padding-bottom: 100px;}
+    h1, h2, h3 { color: #fff; }
+    .section-title { font-size: 26px; font-weight: 900; margin: 30px 0 15px; color: #ffffff; }
+    .admin-box, .app-card { background-color: #1c1c1c; border-radius: 20px; padding: 15px; margin-bottom: 20px; }
+    .socials { display: flex; flex-wrap: wrap; gap: 10px; }
+    .socials a { background-color: #2e2e2e; padding: 10px 20px; border-radius: 12px; color: white; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 6px; transition: background 0.3s; }
+    .socials a:hover { background-color: #3a3a3a; }
+    .app-card { display: flex; justify-content: space-between; align-items: center; transition: all 0.3s ease; }
+    .app-card:hover { transform: scale(1.02); box-shadow: 0 0 15px rgba(30, 144, 255, 0.6); }
+    .app-info { display: flex; align-items: center; gap: 15px; }
+    .app-icon { width: 48px; height: 48px; border-radius: 10px; }
+    .app-text { display: flex; flex-direction: column; }
+    .app-name { font-size: 18px; font-weight: bold; }
+    .app-source { color: #ccc; font-size: 14px; }
+    .app-rating { color: #ffcc00; font-size: 14px; }
+    .get-btn { background-color: #2e2e2e; color: #1e90ff; padding: 8px 15px; border-radius: 10px; font-weight: bold; text-decoration: none; transition: background 0.3s; }
+    .get-btn:hover { background-color: #444; }
+    #bottomMenu { position: fixed; bottom: 0; left: 0; width: 100%; background-color: #1c1c1c; padding: 10px 0; box-shadow: 0 -2px 10px rgba(0,0,0,0.5); z-index: 999; transition: all 0.3s ease; }
+    .section { display: none; }
+    .section.active { display: block; }
+    .search-bar { text-align: right; margin-bottom: 15px; }
+    .search-bar input { padding: 8px 12px; border-radius: 10px; border: none; width: 50%; }
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .app-card { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .app-info { flex-direction: row; align-items: center; width: 100%; }
+      .get-btn { align-self: flex-end; }
+      .search-bar input { width: 100%; }
+    }
+    
+    #bottomMenu.shrink {
+  transform: scale(0.6);
+  bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+  </style>
+</head>
+
+<body>
+  <h1>Tumadam MOD</h1>
+
+  <!-- Home -->
+  <div id="cert" class="section active">
+    <div class="admin-box">
+      <h3>Thông tin Admin</h3>
+      <div class="socials">
+        <a href="https://www.facebook.com/truong.van.man.15586/"><img src="https://img.icons8.com/ios-filled/20/ffffff/facebook--v1.png"/> Facebook</a>
+        <a href="https://t.me/tumadammod"><img src="https://img.icons8.com/ios-filled/20/ffffff/telegram-app.png"/> Telegram</a>
+        <a href="https://discord.gg/a8SX3r9bTK"><img src="https://img.icons8.com/ios-filled/20/ffffff/discord-logo.png"/> Discord</a>
+        <a href="https://youtube.com/@tumadamlengend"><img src="https://img.icons8.com/ios-filled/20/ffffff/youtube-play.png"/> Youtube</a>
+      </div>
+    </div>
+
+<!-- Download Certs -->
+<div class="section-title">Download Certs+DNS</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img src="https://i.imgur.com/FXUed1y.png" class="app-icon" alt="DNS">
+    <div class="app-text">
+      <div class="app-name">DNS</div>
+      <div class="app-source">Anti Revoke,Block Update,Ads,...</div>
+      <div class="app-rating">★★★★★ (15M)</div>
+    </div>
+  </div>
+  <a href="https://www.mediafire.com/file/mtt8gvlrzna6blb/TumadamDNS.mobileconfig/file" class="get-btn" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img src="https://i.imgur.com/FXUed1y.png" class="app-icon" alt="DNS">
+    <div class="app-text">
+      <div class="app-name">DNS V2</div>
+      <div class="app-source">Anti Revoke/Blacklist</div>
+      <div class="app-rating">★★★★★ (15M)</div>
+    </div>
+  </div>
+  <a href="https://www.mediafire.com/file/iu3d53s03jalmgr/Tumadam+DNS+V2.mobileconfig/file" class="get-btn" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img src="https://i.imgur.com/jTByRCj.jpeg" class="app-icon" alt="Cert">
+    <div class="app-text">
+      <div class="app-name">Certificate</div>
+      <div class="app-source">Download Certificate</div>
+      <div class="app-rating">★★★★☆ (11M)</div>
+    </div>
+  </div>
+  <a href="https://www.mediafire.com/file/zmongpgfswn6shl/Certs.zip/file" class="get-btn" target="_blank">📥</a>
+</div>
+
+<h3>ESIGN (Support Full IOS)</h3>
+
+<!-- Bắt đầu danh sách ESign -->
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">Vietnam Electricity</div>
+      <div class="app-rating">★★★★☆ (3.5M)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignvietnamelectricity/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">National Science Library</div>
+      <div class="app-rating">★★★☆☆ (1.8M)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignnational/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">HDFC Bank Limited</div>
+      <div class="app-rating">★★★★★ (7M)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignhdfcbank/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">Kotak Mahindra</div>
+      <div class="app-rating">★★★★☆ (3.2M)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignkotakmahindra/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">China Continent</div>
+      <div class="app-rating">★★★★★ (4M)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignchinacontient/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">GAC TOYOTA</div>
+      <div class="app-rating">★★★★★ (2M)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/Esigngactoyota/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">Sunshine 1</div>
+      <div class="app-rating">★★★★☆ (1M)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignsunshine1/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">Sunshine 2</div>
+      <div class="app-rating">★★★☆☆ (800K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignsunshine2/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/D0LdMLj6/z6717815933340-062a368aa5ef99f679932443c03aafc0.jpg" />
+    <div class="app-text">
+      <div class="app-name">ESign</div>
+      <div class="app-source">Sunshine 3</div>
+      <div class="app-rating">★★★☆☆ (710K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/esignsunshine3/manifest.plist" target="_blank">📥</a>
+</div>
+
+<h3>KSIGN (IOS 17 → Max)</h3>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/vmmdRFg1/z6718241900752-4caad7ac5ca8459785c32afc89909bc3.jpg" />
+    <div class="app-text">
+      <div class="app-name">KSign</div>
+      <div class="app-source">EEO Education Ltd</div>
+      <div class="app-rating">★★★★★ (17K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/eeo/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/vmmdRFg1/z6718241900752-4caad7ac5ca8459785c32afc89909bc3.jpg" />
+    <div class="app-text">
+      <div class="app-name">KSign</div>
+      <div class="app-source">Central Power</div>
+      <div class="app-rating">★★☆☆☆ (3K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/centralpower/manifest.plist" target="_blank">📥</a>
+</div>
+
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/vmmdRFg1/z6718241900752-4caad7ac5ca8459785c32afc89909bc3.jpg" />
+    <div class="app-text">
+      <div class="app-name">KSign</div>
+      <div class="app-source">National Science Library</div>
+      <div class="app-rating">★★★☆☆ (6K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/ksignnational/manifest.plist" target="_blank">📥</a>
+</div>
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/vmmdRFg1/z6718241900752-4caad7ac5ca8459785c32afc89909bc3.jpg" />
+    <div class="app-text">
+      <div class="app-name">KSign</div>
+      <div class="app-source">Vietnam Technological</div>
+      <div class="app-rating">★★★★★ (10K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/ksignviettel/manifest.plist" target="_blank">📥</a>
+</div>
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/vmmdRFg1/z6718241900752-4caad7ac5ca8459785c32afc89909bc3.jpg" />
+    <div class="app-text">
+      <div class="app-name">KSign</div>
+      <div class="app-source">Vietnam Viettel Group1</div>
+      <div class="app-rating">★★★★☆ (7K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="https://tinyurl.com/4n642knh" target="_blank">📥</a>
+</div>
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/vmmdRFg1/z6718241900752-4caad7ac5ca8459785c32afc89909bc3.jpg" />
+    <div class="app-text">
+      <div class="app-name">KSign</div>
+      <div class="app-source">Vietnam Viettel Group2</div>
+      <div class="app-rating">★★★★☆ (7.4K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/ksign2viettel/manifest.plist" target="_blank">📥</a>
+</div>
+<div class="app-card">
+  <div class="app-info">
+    <img class="app-icon" src="https://i.postimg.cc/vmmdRFg1/z6718241900752-4caad7ac5ca8459785c32afc89909bc3.jpg" />
+    <div class="app-text">
+      <div class="app-name">KSign</div>
+      <div class="app-source">Vietnam Viettel Group3</div>
+      <div class="app-rating">★★★★★ (7.3K)</div>
+    </div>
+  </div>
+  <a class="get-btn" href="itms-services://?action=download-manifest&url=https://tumadammod.github.io/ksign3viettel/manifest.plist" target="_blank">📥</a>
+</div>
+
+
+  </div>
+
+  <!-- Certificates -->
+  <div id="certificates" class="section">
+    <div class="search-bar">
+      <input type="text" id="searchCert" placeholder="🔍 Tìm kiếm app..." onkeyup="searchApp('certificates','searchCert')">
+    </div>
+    <div class="section-title">Hỗ Trợ Cài Hack,Mod,..</div>
+    <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/6uzBAPJ.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Troll Store X</div>
+          <div class="app-source">Cài Vĩnh Viễn App Không Lo Thu Hồi(IOS 14.0->16.6.1)</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/xd8qaeoy2sny4lm/TrollInstallerX_1.0.3_1730018713.ipa" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+    <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/A0M7Ugu.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Filza</div>
+          <div class="app-source">Chỉnh Sửa Tệp Dễ Dàng(IOS14-16.6.1)</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/wa2lbgg7vwjwyfv/Filza_NoURLScheme_4.0.0.ipa/file" class="get-btn" target="_blank">📥</a>
+       </div>
+       
+        <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/PAEfF2O.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">TrollFools</div>
+          <div class="app-source">Tiêm App Trực Tiếp Dễ Dàng,Tiện Lợi(Cài Qua TrollStore)</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/9ofsla6v542iz6g/TrollFools_IOS+15,16.tipa/file" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+            <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/XKaUQ0x.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Dopamine</div>
+          <div class="app-source">Giúp Jailbreak Máy(IOS15-16.6.1)</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://ellekit.space/dopamine/" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+                <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/pKBGU0M.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">H5GG</div>
+          <div class="app-source">Sửa Đổi Và Tuỳ Chỉnh Game.Hỗ Trợ Hack Game Tốt,...(Support Full IOS)</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/8mycrd6oiioy31n/H5GG.ipa/file" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+                    <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/FJviXgA.jpeg" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">RootHide</div>
+          <div class="app-source">Hỗ Trợ Jailbreak(IOS15-16.6.1)</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/51x3kk5tobj2ukx/RootHide_2.4.5.18.tipa/file" class="get-btn" target="_blank">📥</a>
+    </div>
+        <div class="section-title">App Tiện Ích</div>
+                            <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/fl8EGis.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Tik Tok BH</div>
+          <div class="app-source">Fake count Follow,Verifly,...Download Video,music,No ads,... </div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/sychnhlm5c9d9ly/TikTok_30.3.0_1733411227.ipa" class="get-btn" target="_blank">📥</a>
+    </div>
+                                <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/FzMfnPo.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Spam SMS</div>
+          <div class="app-source">Spam Cháy Máy Đối Thủ🔥</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/6hkdj6wxt85ykom/Spam+SMS_0.2_1733382633.ipa/file" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+                                    <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/lLpeDRP.jpeg" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Phone Clean</div>
+          <div class="app-source">Giảm Lag Máy</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/bk1zfv5ebyi4fwr/Phone+Clean_1.0_1741958960.ipa/file" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+                                        <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/Nn5rh6w.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">HttpWatch Basic</div>
+          <div class="app-source">Hiển Thị Cookie,tiêu đề,chuỗi truy vấn,tìm mã lỗi,...</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/y7p6zzfjmbattc7/HttpWatch_Basic_2_12.1.4_LeTi.ipa/file" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+                                            <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/ipGCwu8.jpeg" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">UIharu X Pro</div>
+          <div class="app-source">Hiển Thị Dynamic Island,SnowFall,Khung 7 Màu,...Cho Điện Thoại(IOS 14-17.0)</div>
+          <div class="app-rating">★★★★★ (500K)</div>
+        </div>
+      </div>
+      <a href="https://www.mediafire.com/file/l6lho6id5jv8tz0/com.straight-tamago.uiharux-pro-2.0.tipa/file" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+        <div class="section-title">Đang Update Thêm....</div>
+  </div>
+
+  <!-- Khu Upload -->
+  <div id="upload" class="section">
+    <div class="search-bar">
+      <input type="text" id="searchUpload" placeholder="🔍 Tìm kiếm app..." onkeyup="searchApp('upload','searchUpload')">
+    </div>
+        <div class="section-title">Game Hack</div>
+                                            <div class="app-card">
+      <div class="app-info">
+        <img src="https://i.imgur.com/IyWTFna.jpeg" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Roblox VN</div>
+          <div class="app-source">Client KRNL Hack Roblox VN IOS V677</div>
+          <div class="app-rating">★★★★★ (7K)</div>
+        </div>
+      </div>
+      <a href="https://link4m.com/ZAgAU" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+    <div class="app-card">
+          <div class="app-info">
+        <img src="https://i.imgur.com/IyWTFna.jpeg" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Roblox VN LITE</div>
+          <div class="app-source">Client KRNL Hack Roblox VN IOS V677 FIXLAG</div>
+          <div class="app-rating">★★★★★ (2K)</div>
+        </div>
+      </div>
+      <a href="https://link4m.com/pzcm3Aps" class="get-btn" target="_blank">📥</a>
+    </div>
+    
+        <div class="app-card">
+          <div class="app-info">
+        <img src="https://i.imgur.com/sGs1Wei.png" class="app-icon">
+        <div class="app-text">
+          <div class="app-name">Roblox Quốc Tế</div>
+          <div class="app-source">Client KRNL Hack Roblox IOS V677</div>
+          <div class="app-rating">★★★★★ (2K)</div>
+        </div>
+      </div>
+      <a href="https://link4m.com/evj5C7" class="get-btn" target="_blank">📥</a>
+    </div>
+  </div>
+    <div class="section-title">Đang Update Thêm....</div>
+<!-- Thanh menu dưới -->
+  <div id="bottomMenu">
+    <div style="display: flex; justify-content: space-around;">
+      <div onclick="showSection('cert')" style="text-align: center; cursor: pointer;">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/certificate.png"/>
+        <div style="color:white; font-weight:bold;">Cert</div>
+      </div>
+      <div onclick="showSection('certificates')" style="text-align: center; cursor: pointer;">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/apple-app-store--v1.png"/>
+        <div style="color:white; font-weight:bold;">Kho IPA</div>
+      </div>
+      <div onclick="showSection('upload')" style="text-align: center; cursor: pointer;">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/controller--v1.png" width="50" height="50"/>
+        <div style="color:white; font-weight:bold;">Game</div>
+      </div>
+    </div>
+  </div>
+
+<style>
+  #bottomMenu.shrink {
+    transform: scale(0.6);
+    bottom: 5px;
+    transition: all 0.3s ease;
+  }
+</style>
+
+<script>
+  function showSection(sectionId) {
+    document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+    document.getElementById(sectionId).classList.add('active');
+    window.scrollTo(0,0);
+  }
+
+  function searchApp(sectionId, searchInputId) {
+    var input = document.getElementById(searchInputId).value.toLowerCase();
+    var cards = document.querySelectorAll(`#${sectionId} .app-card`);
+    cards.forEach(card => {
+      var name = card.querySelector('.app-name').innerText.toLowerCase();
+      card.style.display = name.includes(input) ? "" : "none";
+    });
+  }
+
+  window.addEventListener('scroll', function() {
+    const bottomMenu = document.getElementById('bottomMenu');
+    if (window.scrollY > 100) {
+      bottomMenu.classList.add('shrink');
+    } else {
+      bottomMenu.classList.remove('shrink');
+    }
+  });
+</script>
+
+</body>
+</html>
